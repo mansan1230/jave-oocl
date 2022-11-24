@@ -1,0 +1,10 @@
+package Student;
+
+class Code {
+    int plane;
+    static int car;
+    public void todo(){
+        int i;
+        //code here
+    }
+}

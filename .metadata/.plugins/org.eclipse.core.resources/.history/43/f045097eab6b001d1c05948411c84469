@@ -1,0 +1,17 @@
+package hallo;
+
+public class hallo {
+
+	public static void main(String args[]) {
+		int a = 8;
+	    int b = 10;
+	    switch (a+b){
+	        case '7' : b = b + 3;break;
+	        case '8' : b = b + 5;break;
+	        case '9' : b = b + 6;break;
+	        default: b = b + 8;
+	    }
+	    System.out.println(b);
+	}
+
+}

@@ -1,0 +1,14 @@
+package hallo;
+
+public class hallo {
+
+	public static void main(String args[]) {
+		int sum = 10;
+		do{
+		     --sum;
+		}while (sum >= 5);
+		System.out.println(sum);
+		 }
+	}
+
+}

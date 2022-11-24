@@ -1,0 +1,13 @@
+package hallo;
+
+public class hallo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		long  i = 13;
+		i = i << 65;
+		System.out.print(i); 
+		
+	}
+
+}

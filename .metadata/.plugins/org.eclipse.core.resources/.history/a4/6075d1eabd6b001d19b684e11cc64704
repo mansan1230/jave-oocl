@@ -1,0 +1,28 @@
+package Student;
+
+
+public class Student {  
+	 String name;  
+	 int age;
+	 String gender;
+	 int id;
+	 
+     void setstudent(String n, int a,String g,int i) {
+		 name = n;
+		 age = a;
+		 gender = g;
+		 id = i;		 
+	 }
+	 void getstudent()
+	 {
+		 System.out.println(name+ "" + age + "" + gender + id); 
+	 }
+}
+
+class TestStudent1{  
+	 public static void main(String args[]){  
+	  Student s1=new Student(); 
+	  s1.setstudent("vincent",20,"M",1234);
+	  s1.getstudent();	  
+	 }  
+	}  

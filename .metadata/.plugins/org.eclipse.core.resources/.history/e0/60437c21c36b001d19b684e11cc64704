@@ -1,0 +1,17 @@
+package Student;
+
+class Parent {
+    Parent() {
+        int i = 100;
+        System.out.println(i);
+    }
+}
+
+public class Son extends Parent {
+    static int i = 200;
+
+    public static void main(String argv[]) {
+        Son s = new Son();
+        System.out.println(i);
+    }
+}
