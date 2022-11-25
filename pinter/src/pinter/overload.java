@@ -24,5 +24,7 @@ public class overload {
         printer.print();
         printer.print(1,"color printer");
         printer.print("black and white printer",1);
+        String str1 = "abc";
+        str1.eq
     }
 }
